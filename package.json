@@ -6,6 +6,7 @@
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
+    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +21,11 @@
   "homepage": "https://github.com/merriammassey/food-festival#readme",
   "devDependencies": {
     "file-loader": "^6.2.0",
-    "webpack": "^5.38.1",
-    "webpack-bundle-analyzer": "^4.4.2",
-    "webpack-cli": "^4.7.0"
+    "webpack": "^4.44.1",
+    "webpack-bundle-analyzer": "^4.4.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.9.2",
